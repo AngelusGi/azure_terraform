@@ -45,11 +45,6 @@ variable "tags" {
   default     = null
 }
 
-variable "subscription_id" {
-  description = "The Azure subscription ID"
-  type        = string
-}
-
 variable "private_dns_zone_group_name" {
   description = "The name of the private DNS zone group"
   type        = string

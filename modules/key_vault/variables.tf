@@ -19,11 +19,6 @@ variable "object_id" {
   default     = null
 }
 
-variable "subscription_id" {
-  description = "The Azure subscription ID"
-  type        = string
-}
-
 variable "tags" {
   description = "A mapping of tags to assign to the resource"
   type        = map(string)
