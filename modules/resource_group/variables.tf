@@ -13,9 +13,3 @@ variable "tags" {
   type        = map(string)
   default     = null
 }
-
-variable "managed_by" {
-  description = "The entity that manages the resource."
-  type        = string
-  default     = null
-}
